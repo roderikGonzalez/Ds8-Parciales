@@ -84,19 +84,27 @@ Ds8-Parciales/
 │   └── PULL_REQUEST_TEMPLATE.md
 │
 ├── complements/
-│   ├── 1_Información_del_Servidor.py
-│   └── 2_Jugadores_Activos.py
+│   ├── console.py
+│   ├── dashboard.py
+│   ├── forgot_password.py
+│   ├── login.py
+│   ├── logs.py
+│   ├── options.py
+│   ├── register.py
+│   └── server_status.py
 │
 ├── src/
 │   ├── config.py
-│   ├── database.py
-│   └── utils.py
+│   └── database.py
+│ 
 │
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
 ├── railway.json
+├──pyproject.toml
+├──style.css
 └── app.py
 ```
 
