@@ -3,13 +3,14 @@
 }
 
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #ffffff9d, #1e293b);
+    background: linear-gradient(135deg, #cccccc9d, #ffffff);
     color: #000000;
 }
 
 [data-testid="stSidebar"] {
-    background: rgb(0, 0, 0);
+    background: rgb(173, 233, 188);
     backdrop-filter: blur(8px);
+    border: 1px solid rgba(0, 207, 69, 0.342) !important;
 }
 
 .card {

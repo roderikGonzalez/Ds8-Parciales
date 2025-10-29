@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
-# Importar páginas
+# Importar páginas corregidas
 from components.login import login_page
 from components.register import register_page
 from components.forgot_password import forgot_password_page
