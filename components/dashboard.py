@@ -1,14 +1,12 @@
 import streamlit as st
 import random
 
-import streamlit as st
+
+
 
 def dashboard_page():
     st.title("📊 Dashboard")
     st.write("Bienvenido al panel principal 🚀")
-
-
-def dashboard_page():
     st.markdown("""
         <style>
         .title {
