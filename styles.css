@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #cccccc9d, #ffffff);
+    color: #000000;
+}
+
+[data-testid="stSidebar"] {
+    background: rgb(173, 233, 188);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0, 207, 69, 0.342) !important;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    padding: 35px;
+    margin-top: 40px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.4);
+    backdrop-filter: blur(18px);
+    text-align: center;
+}
+
+input, textarea {
+    background: rgb(255, 255, 255) !important;
+    color: rgb(80, 80, 80) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgb(79, 255, 143) !important;
+}
+
+.stButton>button {
+    background: #009362;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 255, 94) !important;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background: #00500c;
+    transform: translateY(-3px);
+}
+
+.enlace {
+    color: #60a5fa;
+    text-decoration: underline;
+    cursor: pointer;
+}
